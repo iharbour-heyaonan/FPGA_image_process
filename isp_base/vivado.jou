@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec  5 11:44:08 2022
+# Process ID: 18980
+# Current directory: E:/MyNewFPGAData/vivado/isp_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19216 E:\MyNewFPGAData\vivado\isp_base\isp_base.xpr
+# Log file: E:/MyNewFPGAData/vivado/isp_base/vivado.log
+# Journal file: E:/MyNewFPGAData/vivado/isp_base\vivado.jou
+#-----------------------------------------------------------
+start_gui

@@ -1,0 +1,187 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 19 14:17:45 2022
+# Process ID: 13820
+# Current directory: E:/MyNewFPGAData/vivado/isp_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2008 E:\MyNewFPGAData\vivado\isp_base\isp_base.xpr
+# Log file: E:/MyNewFPGAData/vivado/isp_base/vivado.log
+# Journal file: E:/MyNewFPGAData/vivado/isp_base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/MyNewFPGAData/vivado/isp_base/isp_base.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/DevelopmentKits/Vivado2018.3/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/DevelopmentKits/Vivado2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/rgb2gray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2gray
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/sobel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sobel
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/DevelopmentKits/Vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 5d2a68e4267b4b0e8047a4a795bdd26e --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L c_mux_bit_v12_0_5 -L c_shift_ram_v12_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_viv_comp
+Compiling package c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_pkg
+Compiling package c_mux_bit_v12_0_5.c_mux_bit_v12_0_5_viv_comp
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling module xil_defaultlib.rgb2gray
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=8,...]
+Compiling architecture struct of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_legacy [\c_shift_ram_v12_0_12_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_viv [\c_shift_ram_v12_0_12_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12 [\c_shift_ram_v12_0_12(c_xdevicef...]
+Compiling architecture shift_ram_3x3_8bit_arch of entity xil_defaultlib.shift_RAM_3X3_8bit [shift_ram_3x3_8bit_default]
+Compiling module xil_defaultlib.sobel
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 19 14:35:58 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/tb_top/rd_data" to the wave window because it has 394408 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: [Wavedata 42-489] Can't add object "/tb_top/rd_data2" to the wave window because it has 394408 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+WARNING: Insufficient data from the input file for $fread
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 795.680 ; gain = 66.941
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_top/u0_top/clk}} {{/tb_top/u0_top/rst_n}} {{/tb_top/u0_top/rgb_din}} {{/tb_top/u0_top/din_vld}} {{/tb_top/u0_top/rgb_out}} {{/tb_top/u0_top/dout_vld}} {{/tb_top/u0_top/dout_gray}} {{/tb_top/u0_top/gray_vld}} {{/tb_top/u0_top/dout_sobel}} {{/tb_top/u0_top/sobel_vld}} {{/tb_top/u0_top/pixel_cnt}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_top/u0_top/u_sobel/row1_data_r}} {{/tb_top/u0_top/u_sobel/row2_data_r}} {{/tb_top/u0_top/u_sobel/row1_data}} {{/tb_top/u0_top/u_sobel/row2_data}} {{/tb_top/u0_top/u_sobel/row3_data}} {{/tb_top/u0_top/u_sobel/row1_1}} {{/tb_top/u0_top/u_sobel/row1_2}} {{/tb_top/u0_top/u_sobel/row1_3}} {{/tb_top/u0_top/u_sobel/row2_1}} {{/tb_top/u0_top/u_sobel/row2_2}} {{/tb_top/u0_top/u_sobel/row2_3}} {{/tb_top/u0_top/u_sobel/row3_1}} {{/tb_top/u0_top/u_sobel/row3_2}} {{/tb_top/u0_top/u_sobel/row3_3}} {{/tb_top/u0_top/u_sobel/vld}} {{/tb_top/u0_top/u_sobel/sum_Sx0}} {{/tb_top/u0_top/u_sobel/sum_Sx1}} {{/tb_top/u0_top/u_sobel/sum_Sy0}} {{/tb_top/u0_top/u_sobel/sum_Sy1}} {{/tb_top/u0_top/u_sobel/abs_x}} {{/tb_top/u0_top/u_sobel/abs_y}} {{/tb_top/u0_top/u_sobel/grad_xy}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/DevelopmentKits/Vivado2018.3/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/rgb2gray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2gray
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/sobel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sobel
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/MyNewFPGAData/vivado/isp_base/isp_base.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/DevelopmentKits/Vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 5d2a68e4267b4b0e8047a4a795bdd26e --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L c_mux_bit_v12_0_5 -L c_shift_ram_v12_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_viv_comp
+Compiling package c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_pkg
+Compiling package c_mux_bit_v12_0_5.c_mux_bit_v12_0_5_viv_comp
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling module xil_defaultlib.rgb2gray
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=8,...]
+Compiling architecture struct of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_legacy [\c_shift_ram_v12_0_12_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_viv [\c_shift_ram_v12_0_12_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12 [\c_shift_ram_v12_0_12(c_xdevicef...]
+Compiling architecture shift_ram_3x3_8bit_arch of entity xil_defaultlib.shift_RAM_3X3_8bit [shift_ram_3x3_8bit_default]
+Compiling module xil_defaultlib.sobel
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: Insufficient data from the input file for $fread
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 978.637 ; gain = 0.000
+run all
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/MyNewFPGAData/vivado/isp_base/isp_base.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sat Nov 19 15:43:36 2022] Launched synth_1...
+Run output will be captured here: E:/MyNewFPGAData/vivado/isp_base/isp_base.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 19 22:23:48 2022...

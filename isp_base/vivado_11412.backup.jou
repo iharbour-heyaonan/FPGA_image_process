@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov 13 19:40:48 2022
+# Process ID: 11412
+# Current directory: E:/MyNewFPGAData/vivado/isp_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17588 E:\MyNewFPGAData\vivado\isp_base\isp_base.xpr
+# Log file: E:/MyNewFPGAData/vivado/isp_base/vivado.log
+# Journal file: E:/MyNewFPGAData/vivado/isp_base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/MyNewFPGAData/vivado/isp_base/isp_base.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/median_filter.v w ]
+add_files E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/median_filter.v
+update_compile_order -fileset sources_1
+close [ open E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/dilation.v w ]
+add_files E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/dilation.v
+update_compile_order -fileset sources_1
+close [ open E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/erosion.v w ]
+add_files E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/erosion.v
+update_compile_order -fileset sources_1

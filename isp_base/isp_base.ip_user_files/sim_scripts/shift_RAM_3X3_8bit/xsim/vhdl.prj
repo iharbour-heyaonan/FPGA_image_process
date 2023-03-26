@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../01rgb2gray.srcs/sources_1/ip/shift_RAM_3X3_8bit/sim/shift_RAM_3X3_8bit.vhd" \
+
+nosort

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/rgb2gray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2gray
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/sobel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sobel
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/MyNewFPGAData/vivado/isp_base/isp_base.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

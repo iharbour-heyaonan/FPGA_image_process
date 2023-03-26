@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 19 14:17:45 2022
+# Process ID: 13820
+# Current directory: E:/MyNewFPGAData/vivado/isp_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2008 E:\MyNewFPGAData\vivado\isp_base\isp_base.xpr
+# Log file: E:/MyNewFPGAData/vivado/isp_base/vivado.log
+# Journal file: E:/MyNewFPGAData/vivado/isp_base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/MyNewFPGAData/vivado/isp_base/isp_base.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/u0_top/clk}} {{/tb_top/u0_top/rst_n}} {{/tb_top/u0_top/rgb_din}} {{/tb_top/u0_top/din_vld}} {{/tb_top/u0_top/rgb_out}} {{/tb_top/u0_top/dout_vld}} {{/tb_top/u0_top/dout_gray}} {{/tb_top/u0_top/gray_vld}} {{/tb_top/u0_top/dout_sobel}} {{/tb_top/u0_top/sobel_vld}} {{/tb_top/u0_top/pixel_cnt}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/u0_top/u_sobel/row1_data_r}} {{/tb_top/u0_top/u_sobel/row2_data_r}} {{/tb_top/u0_top/u_sobel/row1_data}} {{/tb_top/u0_top/u_sobel/row2_data}} {{/tb_top/u0_top/u_sobel/row3_data}} {{/tb_top/u0_top/u_sobel/row1_1}} {{/tb_top/u0_top/u_sobel/row1_2}} {{/tb_top/u0_top/u_sobel/row1_3}} {{/tb_top/u0_top/u_sobel/row2_1}} {{/tb_top/u0_top/u_sobel/row2_2}} {{/tb_top/u0_top/u_sobel/row2_3}} {{/tb_top/u0_top/u_sobel/row3_1}} {{/tb_top/u0_top/u_sobel/row3_2}} {{/tb_top/u0_top/u_sobel/row3_3}} {{/tb_top/u0_top/u_sobel/vld}} {{/tb_top/u0_top/u_sobel/sum_Sx0}} {{/tb_top/u0_top/u_sobel/sum_Sx1}} {{/tb_top/u0_top/u_sobel/sum_Sy0}} {{/tb_top/u0_top/u_sobel/sum_Sy1}} {{/tb_top/u0_top/u_sobel/abs_x}} {{/tb_top/u0_top/u_sobel/abs_y}} {{/tb_top/u0_top/u_sobel/grad_xy}} 
+relaunch_sim
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim

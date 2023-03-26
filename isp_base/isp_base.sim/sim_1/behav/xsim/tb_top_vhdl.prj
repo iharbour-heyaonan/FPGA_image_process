@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../isp_base.srcs/sources_1/ip/shift_RAM_3X3_8bit/sim/shift_RAM_3X3_8bit.vhd" \
+
+# Do not sort compile order
+nosort

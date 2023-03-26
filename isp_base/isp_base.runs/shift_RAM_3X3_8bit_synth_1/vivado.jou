@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov  9 19:57:13 2022
+# Process ID: 16760
+# Current directory: E:/MyData/vivado/01rgb2gray/01rgb2gray.runs/shift_RAM_3X3_8bit_synth_1
+# Command line: vivado.exe -log shift_RAM_3X3_8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source shift_RAM_3X3_8bit.tcl
+# Log file: E:/MyData/vivado/01rgb2gray/01rgb2gray.runs/shift_RAM_3X3_8bit_synth_1/shift_RAM_3X3_8bit.vds
+# Journal file: E:/MyData/vivado/01rgb2gray/01rgb2gray.runs/shift_RAM_3X3_8bit_synth_1\vivado.jou
+#-----------------------------------------------------------
+source shift_RAM_3X3_8bit.tcl -notrace

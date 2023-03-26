@@ -1,0 +1,29 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/DevelopmentKits/Vivado2018.3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 5d2a68e4267b4b0e8047a4a795bdd26e --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L c_mux_bit_v12_0_5 -L c_shift_ram_v12_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_viv_comp
+Compiling package c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_pkg
+Compiling package c_mux_bit_v12_0_5.c_mux_bit_v12_0_5_viv_comp
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling module xil_defaultlib.rgb2gray
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=8,...]
+Compiling architecture struct of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_legacy [\c_shift_ram_v12_0_12_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12_viv [\c_shift_ram_v12_0_12_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_12.c_shift_ram_v12_0_12 [\c_shift_ram_v12_0_12(c_xdevicef...]
+Compiling architecture shift_ram_3x3_8bit_arch of entity xil_defaultlib.shift_RAM_3X3_8bit [shift_ram_3x3_8bit_default]
+Compiling module xil_defaultlib.sobel
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
